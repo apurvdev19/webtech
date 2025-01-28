@@ -9,4 +9,13 @@ import { RouterOutlet } from '@angular/router';
 })
 export class AppComponent {
   title = 'webtech-angular';
+
+  constructor() {
+    console.log('AppComponent constructor');
+  }
+
+  ngOnInit() {
+    console.log('AppComponent ngOnInit');
+  }
+
 }

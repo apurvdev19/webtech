@@ -18,4 +18,10 @@ export class AppComponent {
     console.log('AppComponent ngOnInit');
   }
 
+  ngOnDestroy() {
+    console.log('AppComponent ngOnDestroy');
+  }
+
+
+
 }
